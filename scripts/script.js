@@ -44,4 +44,5 @@ square.addEventListener('click', (e) => {
 
 reset.addEventListener('click', (e) => {
     square.innerHTML = startPosition
+    blocks = document.querySelectorAll('.block')
 })
